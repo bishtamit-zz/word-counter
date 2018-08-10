@@ -1,0 +1,57 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/venv": true,
+        "**/.git": true,         // this is a default value
+        "**/.DS_Store": true,    // this is a default value
+
+        "**/node_modules": true, // this excludes all folders 
+                                 // named "node_modules" from 
+                                 // the explore tree
+
+        // alternative version
+        "node_modules": true    // this excludes the folder 
+                                // only from the root of
+                                // your workspace 
+    },
+    // "python.linting.pep8Enabled": true,
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.pylintArgs": [
+    //     "--load-plugins",
+    //     "pylint_django"
+    // ],
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    
+    "sync.gist": "02d137177bce271c4e70ac4a193620",
+    "sync.lastUpload": "2018-05-18T11:15:35.379Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "workbench.colorTheme": "Default Light+",
+    "[python]": {
+        
+    },
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "easy-icons",
+    // The number of spaces a tab is equal to.
+    "editor.tabSize": 4,
+
+    // Insert spaces when pressing Tab.
+    "editor.insertSpaces": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+    "editor.detectIndentation": true
+}
